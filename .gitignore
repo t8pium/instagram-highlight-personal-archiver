@@ -1,0 +1,62 @@
+# Dedicated browser profile data
+ChromeIGDebug/
+.ig_playwright_profile/
+User Data/
+Default/
+Profile */
+Singleton*
+Crashpad/
+BrowserMetrics*/
+Safe Browsing*/
+Cache/
+Code Cache/
+GPUCache/
+Service Worker/
+Network/
+Local Storage/
+Session Storage/
+Sessions/
+Cookies
+Cookies-journal
+
+# Restore tool calibration/local files
+ig_story_restore_easyload_vision_config.json
+ig_story_restore_easyload_templates/
+launcher_settings.json
+
+# Local backup/restore output
+/downloads/
+downloads/
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.tif
+*.tiff
+*.heic
+*.heif
+*.bin
+
+# Local configuration
+.env
+.env.*
+
+# Python
+__pycache__/
+pycache/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
